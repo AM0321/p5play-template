@@ -1,11 +1,30 @@
-<!DOCTYPE html>
+<
+ !DOCTYPE html>
 <html>
 
 <head>
+	// Face
+        fill(255, 224, 189);
+        ellipse(200, 200, 100, 120); // Eyes
+        fill(0);
+        ellipse(185, 190, 10, 10);
+        ellipse(215, 190, 10, 10);
+
+        // Smile
+        noFill();
+        stroke(0);
+        strokeWeight(2);
+        arc(200, 215, 40, 20, 0, PI);
+
+        // Hijab
+        noStroke();
+        fill(100, 100, 200);
+        arc(200, 200, 120, 140, PI, 0, CHORD); // top
+        ellipse(200, 250, 130, 100); // bottom wrap
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="favicon.png">
-	<title>p5play</title>
+	<title>Hijabi girl </title>
 	<style>
 		html,
 		body {
